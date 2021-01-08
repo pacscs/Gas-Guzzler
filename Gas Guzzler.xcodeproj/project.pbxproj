@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9DEFEA425A88C3D00713F89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DEFEA325A88C3D00713F89 /* AppDelegate.swift */; };
+		D9DEFEA625A88C3D00713F89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DEFEA525A88C3D00713F89 /* SceneDelegate.swift */; };
+		D9DEFEA825A88C3D00713F89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DEFEA725A88C3D00713F89 /* ViewController.swift */; };
+		D9DEFEAB25A88C3D00713F89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DEFEA925A88C3D00713F89 /* Main.storyboard */; };
+		D9DEFEAE25A88C3D00713F89 /* Gas_Guzzler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9DEFEAC25A88C3D00713F89 /* Gas_Guzzler.xcdatamodeld */; };
+		D9DEFEB025A88C5800713F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DEFEAF25A88C5800713F89 /* Assets.xcassets */; };
+		D9DEFEB325A88C5800713F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DEFEB125A88C5800713F89 /* LaunchScreen.storyboard */; };
+		D9DEFEBE25A88C5A00713F89 /* Gas_GuzzlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DEFEBD25A88C5A00713F89 /* Gas_GuzzlerTests.swift */; };
+		D9DEFEC925A88C5A00713F89 /* Gas_GuzzlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DEFEC825A88C5A00713F89 /* Gas_GuzzlerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9DEFEBA25A88C5A00713F89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9DEFE9825A88C3C00713F89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9DEFE9F25A88C3D00713F89;
+			remoteInfo = "Gas Guzzler";
+		};
+		D9DEFEC525A88C5A00713F89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9DEFE9825A88C3C00713F89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9DEFE9F25A88C3D00713F89;
+			remoteInfo = "Gas Guzzler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9DEFEA025A88C3D00713F89 /* Gas Guzzler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gas Guzzler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DEFEA325A88C3D00713F89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9DEFEA525A88C3D00713F89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D9DEFEA725A88C3D00713F89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9DEFEAA25A88C3D00713F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9DEFEAD25A88C3D00713F89 /* Gas_Guzzler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gas_Guzzler.xcdatamodel; sourceTree = "<group>"; };
+		D9DEFEAF25A88C5800713F89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9DEFEB225A88C5800713F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9DEFEB425A88C5800713F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9DEFEB925A88C5A00713F89 /* Gas GuzzlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gas GuzzlerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DEFEBD25A88C5A00713F89 /* Gas_GuzzlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gas_GuzzlerTests.swift; sourceTree = "<group>"; };
+		D9DEFEBF25A88C5A00713F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9DEFEC425A88C5A00713F89 /* Gas GuzzlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gas GuzzlerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DEFEC825A88C5A00713F89 /* Gas_GuzzlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gas_GuzzlerUITests.swift; sourceTree = "<group>"; };
+		D9DEFECA25A88C5A00713F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9DEFE9D25A88C3D00713F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DEFEB625A88C5A00713F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DEFEC125A88C5A00713F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9DEFE9725A88C3C00713F89 = {
+			isa = PBXGroup;
+			children = (
+				D9DEFEA225A88C3D00713F89 /* Gas Guzzler */,
+				D9DEFEBC25A88C5A00713F89 /* Gas GuzzlerTests */,
+				D9DEFEC725A88C5A00713F89 /* Gas GuzzlerUITests */,
+				D9DEFEA125A88C3D00713F89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9DEFEA125A88C3D00713F89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9DEFEA025A88C3D00713F89 /* Gas Guzzler.app */,
+				D9DEFEB925A88C5A00713F89 /* Gas GuzzlerTests.xctest */,
+				D9DEFEC425A88C5A00713F89 /* Gas GuzzlerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9DEFEA225A88C3D00713F89 /* Gas Guzzler */ = {
+			isa = PBXGroup;
+			children = (
+				D9DEFEA325A88C3D00713F89 /* AppDelegate.swift */,
+				D9DEFEA525A88C3D00713F89 /* SceneDelegate.swift */,
+				D9DEFEA725A88C3D00713F89 /* ViewController.swift */,
+				D9DEFEA925A88C3D00713F89 /* Main.storyboard */,
+				D9DEFEAF25A88C5800713F89 /* Assets.xcassets */,
+				D9DEFEB125A88C5800713F89 /* LaunchScreen.storyboard */,
+				D9DEFEB425A88C5800713F89 /* Info.plist */,
+				D9DEFEAC25A88C3D00713F89 /* Gas_Guzzler.xcdatamodeld */,
+			);
+			path = "Gas Guzzler";
+			sourceTree = "<group>";
+		};
+		D9DEFEBC25A88C5A00713F89 /* Gas GuzzlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9DEFEBD25A88C5A00713F89 /* Gas_GuzzlerTests.swift */,
+				D9DEFEBF25A88C5A00713F89 /* Info.plist */,
+			);
+			path = "Gas GuzzlerTests";
+			sourceTree = "<group>";
+		};
+		D9DEFEC725A88C5A00713F89 /* Gas GuzzlerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9DEFEC825A88C5A00713F89 /* Gas_GuzzlerUITests.swift */,
+				D9DEFECA25A88C5A00713F89 /* Info.plist */,
+			);
+			path = "Gas GuzzlerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9DEFE9F25A88C3D00713F89 /* Gas Guzzler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9DEFECD25A88C5A00713F89 /* Build configuration list for PBXNativeTarget "Gas Guzzler" */;
+			buildPhases = (
+				D9DEFE9C25A88C3D00713F89 /* Sources */,
+				D9DEFE9D25A88C3D00713F89 /* Frameworks */,
+				D9DEFE9E25A88C3D00713F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gas Guzzler";
+			productName = "Gas Guzzler";
+			productReference = D9DEFEA025A88C3D00713F89 /* Gas Guzzler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9DEFEB825A88C5A00713F89 /* Gas GuzzlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9DEFED025A88C5A00713F89 /* Build configuration list for PBXNativeTarget "Gas GuzzlerTests" */;
+			buildPhases = (
+				D9DEFEB525A88C5A00713F89 /* Sources */,
+				D9DEFEB625A88C5A00713F89 /* Frameworks */,
+				D9DEFEB725A88C5A00713F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9DEFEBB25A88C5A00713F89 /* PBXTargetDependency */,
+			);
+			name = "Gas GuzzlerTests";
+			productName = "Gas GuzzlerTests";
+			productReference = D9DEFEB925A88C5A00713F89 /* Gas GuzzlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9DEFEC325A88C5A00713F89 /* Gas GuzzlerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9DEFED325A88C5A00713F89 /* Build configuration list for PBXNativeTarget "Gas GuzzlerUITests" */;
+			buildPhases = (
+				D9DEFEC025A88C5A00713F89 /* Sources */,
+				D9DEFEC125A88C5A00713F89 /* Frameworks */,
+				D9DEFEC225A88C5A00713F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9DEFEC625A88C5A00713F89 /* PBXTargetDependency */,
+			);
+			name = "Gas GuzzlerUITests";
+			productName = "Gas GuzzlerUITests";
+			productReference = D9DEFEC425A88C5A00713F89 /* Gas GuzzlerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9DEFE9825A88C3C00713F89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					D9DEFE9F25A88C3D00713F89 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					D9DEFEB825A88C5A00713F89 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D9DEFE9F25A88C3D00713F89;
+					};
+					D9DEFEC325A88C5A00713F89 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D9DEFE9F25A88C3D00713F89;
+					};
+				};
+			};
+			buildConfigurationList = D9DEFE9B25A88C3D00713F89 /* Build configuration list for PBXProject "Gas Guzzler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9DEFE9725A88C3C00713F89;
+			productRefGroup = D9DEFEA125A88C3D00713F89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9DEFE9F25A88C3D00713F89 /* Gas Guzzler */,
+				D9DEFEB825A88C5A00713F89 /* Gas GuzzlerTests */,
+				D9DEFEC325A88C5A00713F89 /* Gas GuzzlerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9DEFE9E25A88C3D00713F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DEFEB325A88C5800713F89 /* LaunchScreen.storyboard in Resources */,
+				D9DEFEB025A88C5800713F89 /* Assets.xcassets in Resources */,
+				D9DEFEAB25A88C3D00713F89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DEFEB725A88C5A00713F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DEFEC225A88C5A00713F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9DEFE9C25A88C3D00713F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DEFEA825A88C3D00713F89 /* ViewController.swift in Sources */,
+				D9DEFEAE25A88C3D00713F89 /* Gas_Guzzler.xcdatamodeld in Sources */,
+				D9DEFEA425A88C3D00713F89 /* AppDelegate.swift in Sources */,
+				D9DEFEA625A88C3D00713F89 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DEFEB525A88C5A00713F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DEFEBE25A88C5A00713F89 /* Gas_GuzzlerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DEFEC025A88C5A00713F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DEFEC925A88C5A00713F89 /* Gas_GuzzlerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9DEFEBB25A88C5A00713F89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9DEFE9F25A88C3D00713F89 /* Gas Guzzler */;
+			targetProxy = D9DEFEBA25A88C5A00713F89 /* PBXContainerItemProxy */;
+		};
+		D9DEFEC625A88C5A00713F89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9DEFE9F25A88C3D00713F89 /* Gas Guzzler */;
+			targetProxy = D9DEFEC525A88C5A00713F89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9DEFEA925A88C3D00713F89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9DEFEAA25A88C3D00713F89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9DEFEB125A88C5800713F89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9DEFEB225A88C5800713F89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9DEFECB25A88C5A00713F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9DEFECC25A88C5A00713F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9DEFECE25A88C5A00713F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Z538QZ5M6;
+				INFOPLIST_FILE = "Gas Guzzler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.paulocoraini.Gas-Guzzler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9DEFECF25A88C5A00713F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Z538QZ5M6;
+				INFOPLIST_FILE = "Gas Guzzler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.paulocoraini.Gas-Guzzler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9DEFED125A88C5A00713F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Z538QZ5M6;
+				INFOPLIST_FILE = "Gas GuzzlerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.paulocoraini.Gas-GuzzlerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gas Guzzler.app/Gas Guzzler";
+			};
+			name = Debug;
+		};
+		D9DEFED225A88C5A00713F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Z538QZ5M6;
+				INFOPLIST_FILE = "Gas GuzzlerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.paulocoraini.Gas-GuzzlerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gas Guzzler.app/Gas Guzzler";
+			};
+			name = Release;
+		};
+		D9DEFED425A88C5A00713F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Z538QZ5M6;
+				INFOPLIST_FILE = "Gas GuzzlerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.paulocoraini.Gas-GuzzlerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gas Guzzler";
+			};
+			name = Debug;
+		};
+		D9DEFED525A88C5A00713F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Z538QZ5M6;
+				INFOPLIST_FILE = "Gas GuzzlerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.paulocoraini.Gas-GuzzlerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gas Guzzler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9DEFE9B25A88C3D00713F89 /* Build configuration list for PBXProject "Gas Guzzler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9DEFECB25A88C5A00713F89 /* Debug */,
+				D9DEFECC25A88C5A00713F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9DEFECD25A88C5A00713F89 /* Build configuration list for PBXNativeTarget "Gas Guzzler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9DEFECE25A88C5A00713F89 /* Debug */,
+				D9DEFECF25A88C5A00713F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9DEFED025A88C5A00713F89 /* Build configuration list for PBXNativeTarget "Gas GuzzlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9DEFED125A88C5A00713F89 /* Debug */,
+				D9DEFED225A88C5A00713F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9DEFED325A88C5A00713F89 /* Build configuration list for PBXNativeTarget "Gas GuzzlerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9DEFED425A88C5A00713F89 /* Debug */,
+				D9DEFED525A88C5A00713F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D9DEFEAC25A88C3D00713F89 /* Gas_Guzzler.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D9DEFEAD25A88C3D00713F89 /* Gas_Guzzler.xcdatamodel */,
+			);
+			currentVersion = D9DEFEAD25A88C3D00713F89 /* Gas_Guzzler.xcdatamodel */;
+			path = Gas_Guzzler.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D9DEFE9825A88C3C00713F89 /* Project object */;
+}
