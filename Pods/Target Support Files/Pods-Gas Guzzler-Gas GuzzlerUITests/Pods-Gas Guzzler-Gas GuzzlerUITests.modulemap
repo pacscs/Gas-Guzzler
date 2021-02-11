@@ -1,0 +1,6 @@
+framework module Pods_Gas_Guzzler_Gas_GuzzlerUITests {
+  umbrella header "Pods-Gas Guzzler-Gas GuzzlerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

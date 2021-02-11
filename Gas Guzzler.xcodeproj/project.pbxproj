@@ -3,13 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16A75DA9FC66222480B506BA /* Pods_Gas_Guzzler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E82577745AC8AECBDDEF23D1 /* Pods_Gas_Guzzler.framework */; };
+		594F667B6C4E4F2028A27ED9 /* Pods_Gas_Guzzler_Gas_GuzzlerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B38622BBF9279230BBD0375 /* Pods_Gas_Guzzler_Gas_GuzzlerUITests.framework */; };
+		5AEAE1BDF944F4E5286786B0 /* Pods_Gas_GuzzlerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DD2ECD6ADC590BF020FE26 /* Pods_Gas_GuzzlerTests.framework */; };
+		D92164E425D419AB0047D3AC /* ModelsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92164E325D419AB0047D3AC /* ModelsAPI.swift */; };
+		D958F4B825CDB5A30092704A /* DetalhesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D958F4B725CDB5A30092704A /* DetalhesTableViewController.swift */; };
+		D9A6131225D181CF002E4843 /* AbastecimentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6131125D181CF002E4843 /* AbastecimentoViewController.swift */; };
+		D9A6132F25D1A3A5002E4843 /* DetalhesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6132E25D1A3A5002E4843 /* DetalhesTableViewCell.swift */; };
+		D9A6133C25D1E606002E4843 /* AlcoolGasolinaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6133B25D1E606002E4843 /* AlcoolGasolinaViewController.swift */; };
 		D9DEFEA425A88C3D00713F89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DEFEA325A88C3D00713F89 /* AppDelegate.swift */; };
 		D9DEFEA625A88C3D00713F89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DEFEA525A88C3D00713F89 /* SceneDelegate.swift */; };
-		D9DEFEA825A88C3D00713F89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DEFEA725A88C3D00713F89 /* ViewController.swift */; };
+		D9DEFEA825A88C3D00713F89 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DEFEA725A88C3D00713F89 /* CadastroViewController.swift */; };
 		D9DEFEAB25A88C3D00713F89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DEFEA925A88C3D00713F89 /* Main.storyboard */; };
 		D9DEFEAE25A88C3D00713F89 /* Gas_Guzzler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9DEFEAC25A88C3D00713F89 /* Gas_Guzzler.xcdatamodeld */; };
 		D9DEFEB025A88C5800713F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DEFEAF25A88C5800713F89 /* Assets.xcassets */; };
@@ -36,10 +44,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E066BAA782382928D4963B9 /* Pods-Gas Guzzler-Gas GuzzlerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gas Guzzler-Gas GuzzlerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Gas Guzzler-Gas GuzzlerUITests/Pods-Gas Guzzler-Gas GuzzlerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B582AF96EFF6A487E7C5AE8 /* Pods-Gas Guzzler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gas Guzzler.release.xcconfig"; path = "Target Support Files/Pods-Gas Guzzler/Pods-Gas Guzzler.release.xcconfig"; sourceTree = "<group>"; };
+		4569B7AF09C50AC77C4ECCE9 /* Pods-Gas GuzzlerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gas GuzzlerTests.debug.xcconfig"; path = "Target Support Files/Pods-Gas GuzzlerTests/Pods-Gas GuzzlerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58DD2ECD6ADC590BF020FE26 /* Pods_Gas_GuzzlerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gas_GuzzlerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6259FFC14ED4D190854B094F /* Pods-Gas Guzzler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gas Guzzler.debug.xcconfig"; path = "Target Support Files/Pods-Gas Guzzler/Pods-Gas Guzzler.debug.xcconfig"; sourceTree = "<group>"; };
+		699E5CCA18C52E118BE0FF54 /* Pods-Gas Guzzler-Gas GuzzlerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gas Guzzler-Gas GuzzlerUITests.release.xcconfig"; path = "Target Support Files/Pods-Gas Guzzler-Gas GuzzlerUITests/Pods-Gas Guzzler-Gas GuzzlerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6B38622BBF9279230BBD0375 /* Pods_Gas_Guzzler_Gas_GuzzlerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gas_Guzzler_Gas_GuzzlerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		757C75F6DAE85F2A568A5B95 /* Pods-Gas GuzzlerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gas GuzzlerTests.release.xcconfig"; path = "Target Support Files/Pods-Gas GuzzlerTests/Pods-Gas GuzzlerTests.release.xcconfig"; sourceTree = "<group>"; };
+		D92164E325D419AB0047D3AC /* ModelsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsAPI.swift; sourceTree = "<group>"; };
+		D958F4B725CDB5A30092704A /* DetalhesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesTableViewController.swift; sourceTree = "<group>"; };
+		D9A6131125D181CF002E4843 /* AbastecimentoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbastecimentoViewController.swift; sourceTree = "<group>"; };
+		D9A6132E25D1A3A5002E4843 /* DetalhesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesTableViewCell.swift; sourceTree = "<group>"; };
+		D9A6133B25D1E606002E4843 /* AlcoolGasolinaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlcoolGasolinaViewController.swift; sourceTree = "<group>"; };
 		D9DEFEA025A88C3D00713F89 /* Gas Guzzler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gas Guzzler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DEFEA325A88C3D00713F89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9DEFEA525A88C3D00713F89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D9DEFEA725A88C3D00713F89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9DEFEA725A88C3D00713F89 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
 		D9DEFEAA25A88C3D00713F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9DEFEAD25A88C3D00713F89 /* Gas_Guzzler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gas_Guzzler.xcdatamodel; sourceTree = "<group>"; };
 		D9DEFEAF25A88C5800713F89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +72,7 @@
 		D9DEFEC425A88C5A00713F89 /* Gas GuzzlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gas GuzzlerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DEFEC825A88C5A00713F89 /* Gas_GuzzlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gas_GuzzlerUITests.swift; sourceTree = "<group>"; };
 		D9DEFECA25A88C5A00713F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E82577745AC8AECBDDEF23D1 /* Pods_Gas_Guzzler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gas_Guzzler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16A75DA9FC66222480B506BA /* Pods_Gas_Guzzler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AEAE1BDF944F4E5286786B0 /* Pods_Gas_GuzzlerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +96,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594F667B6C4E4F2028A27ED9 /* Pods_Gas_Guzzler_Gas_GuzzlerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B4D22E80EE3DABAFFE9B1F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E82577745AC8AECBDDEF23D1 /* Pods_Gas_Guzzler.framework */,
+				6B38622BBF9279230BBD0375 /* Pods_Gas_Guzzler_Gas_GuzzlerUITests.framework */,
+				58DD2ECD6ADC590BF020FE26 /* Pods_Gas_GuzzlerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D9DEFE9725A88C3C00713F89 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +120,8 @@
 				D9DEFEBC25A88C5A00713F89 /* Gas GuzzlerTests */,
 				D9DEFEC725A88C5A00713F89 /* Gas GuzzlerUITests */,
 				D9DEFEA125A88C3D00713F89 /* Products */,
+				FF88315FD997BDEF68A1F4EF /* Pods */,
+				7B4D22E80EE3DABAFFE9B1F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +140,11 @@
 			children = (
 				D9DEFEA325A88C3D00713F89 /* AppDelegate.swift */,
 				D9DEFEA525A88C3D00713F89 /* SceneDelegate.swift */,
-				D9DEFEA725A88C3D00713F89 /* ViewController.swift */,
-				D9DEFEA925A88C3D00713F89 /* Main.storyboard */,
+				D9E084D125C1A81D0035BE97 /* Model */,
+				D9E084D425C1A8420035BE97 /* View */,
+				D9E084D325C1A83A0035BE97 /* Controller */,
 				D9DEFEAF25A88C5800713F89 /* Assets.xcassets */,
+				D9DEFEA925A88C3D00713F89 /* Main.storyboard */,
 				D9DEFEB125A88C5800713F89 /* LaunchScreen.storyboard */,
 				D9DEFEB425A88C5800713F89 /* Info.plist */,
 				D9DEFEAC25A88C3D00713F89 /* Gas_Guzzler.xcdatamodeld */,
@@ -131,6 +170,46 @@
 			path = "Gas GuzzlerUITests";
 			sourceTree = "<group>";
 		};
+		D9E084D125C1A81D0035BE97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D92164E325D419AB0047D3AC /* ModelsAPI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9E084D325C1A83A0035BE97 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D958F4B725CDB5A30092704A /* DetalhesTableViewController.swift */,
+				D9DEFEA725A88C3D00713F89 /* CadastroViewController.swift */,
+				D9A6131125D181CF002E4843 /* AbastecimentoViewController.swift */,
+				D9A6133B25D1E606002E4843 /* AlcoolGasolinaViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9E084D425C1A8420035BE97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9A6132E25D1A3A5002E4843 /* DetalhesTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF88315FD997BDEF68A1F4EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6259FFC14ED4D190854B094F /* Pods-Gas Guzzler.debug.xcconfig */,
+				3B582AF96EFF6A487E7C5AE8 /* Pods-Gas Guzzler.release.xcconfig */,
+				1E066BAA782382928D4963B9 /* Pods-Gas Guzzler-Gas GuzzlerUITests.debug.xcconfig */,
+				699E5CCA18C52E118BE0FF54 /* Pods-Gas Guzzler-Gas GuzzlerUITests.release.xcconfig */,
+				4569B7AF09C50AC77C4ECCE9 /* Pods-Gas GuzzlerTests.debug.xcconfig */,
+				757C75F6DAE85F2A568A5B95 /* Pods-Gas GuzzlerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9DEFECD25A88C5A00713F89 /* Build configuration list for PBXNativeTarget "Gas Guzzler" */;
 			buildPhases = (
+				F5657B1BCB1723FBB8566CCE /* [CP] Check Pods Manifest.lock */,
 				D9DEFE9C25A88C3D00713F89 /* Sources */,
 				D9DEFE9D25A88C3D00713F89 /* Frameworks */,
 				D9DEFE9E25A88C3D00713F89 /* Resources */,
+				DAF547BBD54150C9136C03C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9DEFED025A88C5A00713F89 /* Build configuration list for PBXNativeTarget "Gas GuzzlerTests" */;
 			buildPhases = (
+				6E6BC50323CD761DA666E407 /* [CP] Check Pods Manifest.lock */,
 				D9DEFEB525A88C5A00713F89 /* Sources */,
 				D9DEFEB625A88C5A00713F89 /* Frameworks */,
 				D9DEFEB725A88C5A00713F89 /* Resources */,
@@ -173,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9DEFED325A88C5A00713F89 /* Build configuration list for PBXNativeTarget "Gas GuzzlerUITests" */;
 			buildPhases = (
+				6C8C9838AD6872141E409BCF /* [CP] Check Pods Manifest.lock */,
 				D9DEFEC025A88C5A00713F89 /* Sources */,
 				D9DEFEC125A88C5A00713F89 /* Frameworks */,
 				D9DEFEC225A88C5A00713F89 /* Resources */,
+				D9B892CD4F4DB332186C41D9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,14 +340,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6C8C9838AD6872141E409BCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gas Guzzler-Gas GuzzlerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E6BC50323CD761DA666E407 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gas GuzzlerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9B892CD4F4DB332186C41D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gas Guzzler-Gas GuzzlerUITests/Pods-Gas Guzzler-Gas GuzzlerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gas Guzzler-Gas GuzzlerUITests/Pods-Gas Guzzler-Gas GuzzlerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gas Guzzler-Gas GuzzlerUITests/Pods-Gas Guzzler-Gas GuzzlerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAF547BBD54150C9136C03C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gas Guzzler/Pods-Gas Guzzler-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gas Guzzler/Pods-Gas Guzzler-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gas Guzzler/Pods-Gas Guzzler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5657B1BCB1723FBB8566CCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gas Guzzler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D9DEFE9C25A88C3D00713F89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9DEFEA825A88C3D00713F89 /* ViewController.swift in Sources */,
+				D958F4B825CDB5A30092704A /* DetalhesTableViewController.swift in Sources */,
+				D9DEFEA825A88C3D00713F89 /* CadastroViewController.swift in Sources */,
+				D9A6132F25D1A3A5002E4843 /* DetalhesTableViewCell.swift in Sources */,
 				D9DEFEAE25A88C3D00713F89 /* Gas_Guzzler.xcdatamodeld in Sources */,
+				D92164E425D419AB0047D3AC /* ModelsAPI.swift in Sources */,
+				D9A6133C25D1E606002E4843 /* AlcoolGasolinaViewController.swift in Sources */,
 				D9DEFEA425A88C3D00713F89 /* AppDelegate.swift in Sources */,
+				D9A6131225D181CF002E4843 /* AbastecimentoViewController.swift in Sources */,
 				D9DEFEA625A88C3D00713F89 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +629,7 @@
 		};
 		D9DEFECE25A88C5A00713F89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6259FFC14ED4D190854B094F /* Pods-Gas Guzzler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +649,7 @@
 		};
 		D9DEFECF25A88C5A00713F89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B582AF96EFF6A487E7C5AE8 /* Pods-Gas Guzzler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +669,7 @@
 		};
 		D9DEFED125A88C5A00713F89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4569B7AF09C50AC77C4ECCE9 /* Pods-Gas GuzzlerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +692,7 @@
 		};
 		D9DEFED225A88C5A00713F89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 757C75F6DAE85F2A568A5B95 /* Pods-Gas GuzzlerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +715,7 @@
 		};
 		D9DEFED425A88C5A00713F89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E066BAA782382928D4963B9 /* Pods-Gas Guzzler-Gas GuzzlerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +736,7 @@
 		};
 		D9DEFED525A88C5A00713F89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699E5CCA18C52E118BE0FF54 /* Pods-Gas Guzzler-Gas GuzzlerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

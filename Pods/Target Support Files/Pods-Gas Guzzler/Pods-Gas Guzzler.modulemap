@@ -1,0 +1,6 @@
+framework module Pods_Gas_Guzzler {
+  umbrella header "Pods-Gas Guzzler-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,4 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="true" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H512" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Abastecimento" representedClassName="Abastecimento" syncable="YES" codeGenerationType="class">
+        <attribute name="data" optional="YES" attributeType="String"/>
+        <attribute name="hora" optional="YES" attributeType="String"/>
+        <attribute name="litros" optional="YES" attributeType="String"/>
+        <attribute name="odometro" optional="YES" attributeType="String"/>
+        <attribute name="posto" optional="YES" attributeType="String"/>
+        <attribute name="precoLitro" optional="YES" attributeType="String"/>
+        <attribute name="precoTotal" optional="YES" attributeType="String"/>
+        <attribute name="tipo" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Consumo" representedClassName="Consumo" syncable="YES" codeGenerationType="class">
+        <attribute name="alcool" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="autonomia" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="gasolina" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Veiculo" representedClassName="Veiculo" syncable="YES" codeGenerationType="class">
+        <attribute name="brand" optional="YES" attributeType="String"/>
+        <attribute name="gasTank" optional="YES" attributeType="String"/>
+        <attribute name="model" optional="YES" attributeType="String"/>
+        <attribute name="vehicle" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Veiculo" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="Abastecimento" positionX="-63" positionY="9" width="128" height="163"/>
+        <element name="Consumo" positionX="-54" positionY="63" width="128" height="88"/>
+    </elements>
 </model>
