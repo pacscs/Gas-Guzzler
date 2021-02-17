@@ -16,7 +16,8 @@ class CadastroViewController: UIViewController, UITableViewDelegate {
     @IBOutlet var vehicleTextField: UITextField!
     @IBOutlet var gasTankTextField: UITextField!
     
-                
+    @IBOutlet weak var modelPickerView: UIPickerView!
+    
     var contexto:NSManagedObjectContext {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         return appDelegate.persistentContainer.viewContext
@@ -28,6 +29,7 @@ class CadastroViewController: UIViewController, UITableViewDelegate {
         veiculo.model = modelTextField.text
         veiculo.vehicle = vehicleTextField.text
         veiculo.gasTank = gasTankTextField.text
+        veiculo.model = modelPickerView
         
         do {
             try contexto.save()

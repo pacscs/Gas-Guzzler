@@ -25,6 +25,8 @@ class DetalhesTableViewController: UITableViewController, NSFetchedResultsContro
     
     func recuperaVeiculo() {
         
+        VeiculoAPI().recuperaVeiculo()
+        
         let pesquisaVeiculo:NSFetchRequest<Veiculo> = Veiculo.fetchRequest()
         let ordenaPorNome = NSSortDescriptor(key: "vehicle", ascending: true)
         pesquisaVeiculo.sortDescriptors = [ordenaPorNome]

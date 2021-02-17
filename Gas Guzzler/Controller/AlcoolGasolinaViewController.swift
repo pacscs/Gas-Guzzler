@@ -26,7 +26,7 @@ class AlcoolGasolinaViewController: UIViewController{
         
             alert.addAction(UIAlertAction(title: "Boa Viagem!!!", style: UIAlertAction.Style.default, handler: nil))
             self.present(alert, animated: true, completion: nil)
-        
+            
         }
         
     }

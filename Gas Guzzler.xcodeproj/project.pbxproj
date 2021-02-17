@@ -15,6 +15,8 @@
 		D9A6131225D181CF002E4843 /* AbastecimentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6131125D181CF002E4843 /* AbastecimentoViewController.swift */; };
 		D9A6132F25D1A3A5002E4843 /* DetalhesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6132E25D1A3A5002E4843 /* DetalhesTableViewCell.swift */; };
 		D9A6133C25D1E606002E4843 /* AlcoolGasolinaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6133B25D1E606002E4843 /* AlcoolGasolinaViewController.swift */; };
+		D9DE4F7725DD6D3400835983 /* VeiculoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DE4F7625DD6D3400835983 /* VeiculoAPI.swift */; };
+		D9DE4F8D25DD865100835983 /* VeiculoDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DE4F8C25DD865100835983 /* VeiculoDAO.swift */; };
 		D9DEFEA425A88C3D00713F89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DEFEA325A88C3D00713F89 /* AppDelegate.swift */; };
 		D9DEFEA625A88C3D00713F89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DEFEA525A88C3D00713F89 /* SceneDelegate.swift */; };
 		D9DEFEA825A88C3D00713F89 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DEFEA725A88C3D00713F89 /* CadastroViewController.swift */; };
@@ -57,6 +59,8 @@
 		D9A6131125D181CF002E4843 /* AbastecimentoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbastecimentoViewController.swift; sourceTree = "<group>"; };
 		D9A6132E25D1A3A5002E4843 /* DetalhesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesTableViewCell.swift; sourceTree = "<group>"; };
 		D9A6133B25D1E606002E4843 /* AlcoolGasolinaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlcoolGasolinaViewController.swift; sourceTree = "<group>"; };
+		D9DE4F7625DD6D3400835983 /* VeiculoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeiculoAPI.swift; sourceTree = "<group>"; };
+		D9DE4F8C25DD865100835983 /* VeiculoDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeiculoDAO.swift; sourceTree = "<group>"; };
 		D9DEFEA025A88C3D00713F89 /* Gas Guzzler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gas Guzzler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DEFEA325A88C3D00713F89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9DEFEA525A88C3D00713F89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -174,6 +178,8 @@
 			isa = PBXGroup;
 			children = (
 				D92164E325D419AB0047D3AC /* ModelsAPI.swift */,
+				D9DE4F7625DD6D3400835983 /* VeiculoAPI.swift */,
+				D9DE4F8C25DD865100835983 /* VeiculoDAO.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -450,10 +456,12 @@
 			files = (
 				D958F4B825CDB5A30092704A /* DetalhesTableViewController.swift in Sources */,
 				D9DEFEA825A88C3D00713F89 /* CadastroViewController.swift in Sources */,
+				D9DE4F8D25DD865100835983 /* VeiculoDAO.swift in Sources */,
 				D9A6132F25D1A3A5002E4843 /* DetalhesTableViewCell.swift in Sources */,
 				D9DEFEAE25A88C3D00713F89 /* Gas_Guzzler.xcdatamodeld in Sources */,
 				D92164E425D419AB0047D3AC /* ModelsAPI.swift in Sources */,
 				D9A6133C25D1E606002E4843 /* AlcoolGasolinaViewController.swift in Sources */,
+				D9DE4F7725DD6D3400835983 /* VeiculoAPI.swift in Sources */,
 				D9DEFEA425A88C3D00713F89 /* AppDelegate.swift in Sources */,
 				D9A6131225D181CF002E4843 /* AbastecimentoViewController.swift in Sources */,
 				D9DEFEA625A88C3D00713F89 /* SceneDelegate.swift in Sources */,
