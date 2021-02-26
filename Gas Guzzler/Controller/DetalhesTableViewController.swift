@@ -16,7 +16,6 @@ class DetalhesTableViewController: UITableViewController, NSFetchedResultsContro
     }
     
     var gerenciador:NSFetchedResultsController<Veiculo>?
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.recuperaVeiculo()
@@ -60,8 +59,8 @@ class DetalhesTableViewController: UITableViewController, NSFetchedResultsContro
     
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            guard let veiculoSelecionado = gerenciador?.fetchedObjects![indexPath.row] else { return }
-            contexto.delete(veiculoSelecionado)
+            guard let abastecimentoSelecionado = gerenciador?.fetchedObjects![indexPath.row] else { return }
+            contexto.delete(abastecimentoSelecionado)
             
             do {
                 try contexto.save()

@@ -23,7 +23,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hIX-xn-cao">
                                         <rect key="frame" x="0.0" y="0.0" width="355" height="50"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tell us your ride!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NbX-Rf-Nrx">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Diga-nos seu carro..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NbX-Rf-Nrx">
                                                 <rect key="frame" x="0.0" y="12" width="355" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -50,17 +50,17 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="355" height="35"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="iyz-3B-Odb">
-                                                        <rect key="frame" x="0.0" y="1.5" width="28" height="32.5"/>
+                                                        <rect key="frame" x="0.0" y="1.5" width="28.5" height="32.5"/>
                                                         <color key="tintColor" systemColor="labelColor"/>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brand:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ubf-RE-KcY">
-                                                        <rect key="frame" x="39" y="0.0" width="58.5" height="35"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tipo:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ubf-RE-KcY">
+                                                        <rect key="frame" x="39.5" y="0.0" width="45.5" height="35"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ex: Car, Motocycle, Truck... " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NcP-C5-j5J" userLabel="Ex: Car, Motocycle, Truck...">
-                                                        <rect key="frame" x="108.5" y="0.0" width="246.5" height="35"/>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ex: Carro, Moto, Caminhao... " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NcP-C5-j5J" userLabel="Ex: Car, Motocycle, Truck...">
+                                                        <rect key="frame" x="96" y="0.0" width="259" height="35"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
@@ -78,19 +78,19 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="355" height="35"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car.2.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="cCr-nS-gsx">
-                                                        <rect key="frame" x="0.0" y="3" width="35" height="29.5"/>
+                                                        <rect key="frame" x="0.0" y="3" width="37.5" height="29.5"/>
                                                         <color key="tintColor" systemColor="labelColor"/>
                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Model:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4go-CH-haF">
-                                                        <rect key="frame" x="35" y="0.0" width="71" height="35"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marca:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4go-CH-haF">
+                                                        <rect key="frame" x="37.5" y="0.0" width="77" height="35"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ex: BMW, Ford, VW...     " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CER-pZ-DBy">
-                                                        <rect key="frame" x="106" y="0.0" width="249" height="35"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ex: BMW, Ford, VW...     " minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CER-pZ-DBy">
+                                                        <rect key="frame" x="114.5" y="0.0" width="240.5" height="35"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
@@ -111,14 +111,14 @@
                                                         <color key="tintColor" systemColor="labelColor"/>
                                                         <imageReference key="image" image="questionmark.circle.fill" catalog="system" symbolScale="large"/>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vehicle:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zrj-o9-H0J">
-                                                        <rect key="frame" x="36" y="0.0" width="60" height="35"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Modelo:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zrj-o9-H0J">
+                                                        <rect key="frame" x="36" y="0.0" width="61.5" height="35"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ex: X6, Mustang, Golf..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FCZ-UL-y8n">
-                                                        <rect key="frame" x="107" y="0.0" width="248" height="35"/>
+                                                        <rect key="frame" x="108.5" y="0.0" width="246.5" height="35"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
@@ -141,14 +141,14 @@
                                                         <imageReference key="image" image="g.circle.fill" catalog="system" symbolScale="large"/>
                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="medium"/>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gas tank:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSW-G0-pym">
-                                                        <rect key="frame" x="30" y="0.0" width="72" height="35"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tanque:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSW-G0-pym">
+                                                        <rect key="frame" x="30" y="0.0" width="60.5" height="35"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Capacity in Liters (L)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0PJ-Cx-pRY">
-                                                        <rect key="frame" x="107" y="0.0" width="248" height="35"/>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Capacidade em Litros (L)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0PJ-Cx-pRY">
+                                                        <rect key="frame" x="95.5" y="0.0" width="259.5" height="35"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
@@ -251,7 +251,7 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="labelVeiculo" destination="X6I-M0-cKl" id="8kr-aD-pC0"/>
+                                    <outlet property="labelVeiculo" destination="X6I-M0-cKl" id="7zH-Fx-oNg"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -412,8 +412,8 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="adiconarAbastecimento" destination="Uxy-2W-8Yh" eventType="touchUpInside" id="MoX-BI-8Rm"/>
-                                            <action selector="adiconarAbastecimento:" destination="Uxy-2W-8Yh" eventType="touchUpInside" id="yuw-LV-z3b"/>
+                                            <action selector="adiconarAbastecimento:" destination="Uxy-2W-8Yh" eventType="touchUpInside" id="9z0-sa-D4x"/>
+                                            <segue destination="Xhk-GN-KbE" kind="show" id="PVz-sf-f67"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -539,42 +539,83 @@
             </objects>
             <point key="canvasLocation" x="848.79999999999995" y="346.77661169415296"/>
         </scene>
-        <!--Table View Controller-->
-        <scene sceneID="gXP-OO-ZHc">
+        <!--Detalhes Abastecimento Table View Controller-->
+        <scene sceneID="Tx7-TP-r9o">
             <objects>
-                <tableViewController id="yCh-ji-D7b" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="4dM-xU-uy0">
+                <tableViewController id="Xhk-GN-KbE" customClass="DetalhesAbastecimentoTableViewController" customModule="Gas_Guzzler" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="1XL-80-tqm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="VDv-nW-THi">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eoh-5o-B5e">
+                                    <rect key="frame" x="10" y="0.0" width="355" height="50"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Seus abastecimentos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zag-Hf-MWH">
+                                            <rect key="frame" x="0.0" y="0.0" width="355" height="42"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="close" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXZ-IT-TWc">
+                                            <rect key="frame" x="1" y="6" width="26" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <connections>
+                                                <action selector="buttonSair:" destination="Xhk-GN-KbE" eventType="touchUpInside" id="Sp8-LJ-Fsr"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.375170165" green="0.3547765813" blue="1" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="TuW-sf-uDp"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="eoh-5o-B5e" secondAttribute="trailing" constant="10" id="UIx-wG-bXi"/>
+                                <constraint firstItem="eoh-5o-B5e" firstAttribute="top" secondItem="VDv-nW-THi" secondAttribute="top" id="cEv-bp-YNf"/>
+                                <constraint firstItem="eoh-5o-B5e" firstAttribute="leading" secondItem="VDv-nW-THi" secondAttribute="leading" constant="10" id="gJL-FG-Tyv"/>
+                            </constraints>
+                        </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="YdK-Kk-aNx">
-                                <rect key="frame" x="0.0" y="28" width="375" height="43.5"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="data" id="nxh-I5-fhh" userLabel="data" customClass="DetalhesAbastecimentoTableViewCell" customModule="Gas_Guzzler" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="72" width="375" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YdK-Kk-aNx" id="cwK-py-H5g">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nxh-I5-fhh" id="j73-Xf-jX0" customClass="DetalhesAbastecimentoTableViewCell" customModule="Gas_Guzzler" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6H-HS-INx">
-                                            <rect key="frame" x="26" y="11" width="42" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xkI-oh-XtE">
+                                            <rect key="frame" x="16" y="0.0" width="343" height="44"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <accessibility key="accessibilityConfiguration" identifier="data"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <accessibility key="accessibilityConfiguration" identifier="data"/>
+                                <connections>
+                                    <outlet property="labelData" destination="xkI-oh-XtE" id="TCV-3Y-DIJ"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="yCh-ji-D7b" id="GqK-Fn-mzQ"/>
-                            <outlet property="delegate" destination="yCh-ji-D7b" id="Ght-NI-VSA"/>
+                            <outlet property="dataSource" destination="Xhk-GN-KbE" id="2wa-YH-djL"/>
+                            <outlet property="delegate" destination="Xhk-GN-KbE" id="gku-Al-ugv"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="xdj-mo-P9O"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JUC-QB-8bQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ofm-OS-ArJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-956" y="-1010"/>
+            <point key="canvasLocation" x="56.799999999999997" y="-330.58470764617692"/>
         </scene>
     </scenes>
     <resources>

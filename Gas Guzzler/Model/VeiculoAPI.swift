@@ -14,7 +14,14 @@ class VeiculoAPI: NSObject {
         Alamofire.request("https://the-vehicles-api.herokuapp.com/brands", method: .get).responseJSON { (response) in
             switch response.result {
             case .success:
-                print(response.result.value!)
+                if let resposta = response.result.value as? Dictionary<String, String> {
+                    guard let listaDeMarcas = resposta ["brand"] as? Array<Dictionary<String, String>> else { return }
+                    
+                    for dicionarioDeVeiculo in listaDeMarcas {
+                        VeiculoDAO().salvaCadastro(dicionarioDeVeiculo: dicionarioDeVeiculo)
+                    }
+                    
+                }
                 break
             case .failure:
                 print(response.error!)

@@ -9,7 +9,7 @@ import UIKit
 import CoreData
 
 
-class AbastecimentoViewController: UIViewController {
+class AbastecimentoViewController: UIViewController, UITableViewDelegate {
 
     @IBOutlet weak var textFieldData: UITextField!
     @IBOutlet weak var textFieldHora: UITextField!
@@ -39,14 +39,10 @@ class AbastecimentoViewController: UIViewController {
         abastecimento.litros = textFieldLitros.text
         abastecimento.posto = textFieldPosto.text
         
-        do {
-            try contexto.save()
-            navigationController?.popToRootViewController(animated: true)
-        } catch {
-            print(error.localizedDescription)
-        }
+        
         
     }
-    
+
     
 }
+

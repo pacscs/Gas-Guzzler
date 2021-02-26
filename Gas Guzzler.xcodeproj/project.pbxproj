@@ -10,7 +10,8 @@
 		16A75DA9FC66222480B506BA /* Pods_Gas_Guzzler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E82577745AC8AECBDDEF23D1 /* Pods_Gas_Guzzler.framework */; };
 		594F667B6C4E4F2028A27ED9 /* Pods_Gas_Guzzler_Gas_GuzzlerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B38622BBF9279230BBD0375 /* Pods_Gas_Guzzler_Gas_GuzzlerUITests.framework */; };
 		5AEAE1BDF944F4E5286786B0 /* Pods_Gas_GuzzlerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DD2ECD6ADC590BF020FE26 /* Pods_Gas_GuzzlerTests.framework */; };
-		D92164E425D419AB0047D3AC /* ModelsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92164E325D419AB0047D3AC /* ModelsAPI.swift */; };
+		D91D149925E7FD4500B7D7B3 /* DetalhesAbastecimentoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91D149825E7FD4500B7D7B3 /* DetalhesAbastecimentoTableViewController.swift */; };
+		D91D14B725E8485D00B7D7B3 /* DetalhesAbastecimentoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91D14B625E8485D00B7D7B3 /* DetalhesAbastecimentoTableViewCell.swift */; };
 		D958F4B825CDB5A30092704A /* DetalhesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D958F4B725CDB5A30092704A /* DetalhesTableViewController.swift */; };
 		D9A6131225D181CF002E4843 /* AbastecimentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6131125D181CF002E4843 /* AbastecimentoViewController.swift */; };
 		D9A6132F25D1A3A5002E4843 /* DetalhesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6132E25D1A3A5002E4843 /* DetalhesTableViewCell.swift */; };
@@ -54,7 +55,8 @@
 		699E5CCA18C52E118BE0FF54 /* Pods-Gas Guzzler-Gas GuzzlerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gas Guzzler-Gas GuzzlerUITests.release.xcconfig"; path = "Target Support Files/Pods-Gas Guzzler-Gas GuzzlerUITests/Pods-Gas Guzzler-Gas GuzzlerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6B38622BBF9279230BBD0375 /* Pods_Gas_Guzzler_Gas_GuzzlerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gas_Guzzler_Gas_GuzzlerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		757C75F6DAE85F2A568A5B95 /* Pods-Gas GuzzlerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gas GuzzlerTests.release.xcconfig"; path = "Target Support Files/Pods-Gas GuzzlerTests/Pods-Gas GuzzlerTests.release.xcconfig"; sourceTree = "<group>"; };
-		D92164E325D419AB0047D3AC /* ModelsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsAPI.swift; sourceTree = "<group>"; };
+		D91D149825E7FD4500B7D7B3 /* DetalhesAbastecimentoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesAbastecimentoTableViewController.swift; sourceTree = "<group>"; };
+		D91D14B625E8485D00B7D7B3 /* DetalhesAbastecimentoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesAbastecimentoTableViewCell.swift; sourceTree = "<group>"; };
 		D958F4B725CDB5A30092704A /* DetalhesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesTableViewController.swift; sourceTree = "<group>"; };
 		D9A6131125D181CF002E4843 /* AbastecimentoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbastecimentoViewController.swift; sourceTree = "<group>"; };
 		D9A6132E25D1A3A5002E4843 /* DetalhesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesTableViewCell.swift; sourceTree = "<group>"; };
@@ -177,7 +179,6 @@
 		D9E084D125C1A81D0035BE97 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D92164E325D419AB0047D3AC /* ModelsAPI.swift */,
 				D9DE4F7625DD6D3400835983 /* VeiculoAPI.swift */,
 				D9DE4F8C25DD865100835983 /* VeiculoDAO.swift */,
 			);
@@ -188,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				D958F4B725CDB5A30092704A /* DetalhesTableViewController.swift */,
+				D91D149825E7FD4500B7D7B3 /* DetalhesAbastecimentoTableViewController.swift */,
 				D9DEFEA725A88C3D00713F89 /* CadastroViewController.swift */,
 				D9A6131125D181CF002E4843 /* AbastecimentoViewController.swift */,
 				D9A6133B25D1E606002E4843 /* AlcoolGasolinaViewController.swift */,
@@ -199,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				D9A6132E25D1A3A5002E4843 /* DetalhesTableViewCell.swift */,
+				D91D14B625E8485D00B7D7B3 /* DetalhesAbastecimentoTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -455,11 +458,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D958F4B825CDB5A30092704A /* DetalhesTableViewController.swift in Sources */,
+				D91D14B725E8485D00B7D7B3 /* DetalhesAbastecimentoTableViewCell.swift in Sources */,
+				D91D149925E7FD4500B7D7B3 /* DetalhesAbastecimentoTableViewController.swift in Sources */,
 				D9DEFEA825A88C3D00713F89 /* CadastroViewController.swift in Sources */,
 				D9DE4F8D25DD865100835983 /* VeiculoDAO.swift in Sources */,
 				D9A6132F25D1A3A5002E4843 /* DetalhesTableViewCell.swift in Sources */,
 				D9DEFEAE25A88C3D00713F89 /* Gas_Guzzler.xcdatamodeld in Sources */,
-				D92164E425D419AB0047D3AC /* ModelsAPI.swift in Sources */,
 				D9A6133C25D1E606002E4843 /* AlcoolGasolinaViewController.swift in Sources */,
 				D9DE4F7725DD6D3400835983 /* VeiculoAPI.swift in Sources */,
 				D9DEFEA425A88C3D00713F89 /* AppDelegate.swift in Sources */,
